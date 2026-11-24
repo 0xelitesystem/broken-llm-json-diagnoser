@@ -1,8 +1,8 @@
-# LLM JSON Repair
+# Broken LLM JSON Diagnoser
 
 Paste the broken JSON an LLM just handed you, get valid JSON back, plus a named diagnosis for every repair and the prompt change that prevents it next time.
 
-**Live demo:** https://0xelitesystem.github.io/llm-json-repair/
+**Live demo:** https://0xelitesystem.github.io/broken-llm-json-diagnoser/
 
 Not a general JSON tool: [json-workbench](https://github.com/0xelitesystem/json-workbench) already covers formatting, tree browsing, querying, diffing and everyday tolerant parsing, while this repo is specifically about LLM output failure modes and the prompt-level fix for each one.
 
@@ -54,8 +54,8 @@ Model output often contains customer data, internal identifiers, or content unde
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/llm-json-repair
-cd llm-json-repair
+git clone https://github.com/0xelitesystem/broken-llm-json-diagnoser
+cd broken-llm-json-diagnoser
 ```
 
 Open `index.html` in any modern browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
