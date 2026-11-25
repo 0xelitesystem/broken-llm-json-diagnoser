@@ -4,7 +4,7 @@ Paste the broken JSON an LLM just handed you, get valid JSON back, plus a named 
 
 **Live demo:** https://0xelitesystem.github.io/broken-llm-json-diagnoser/
 
-Not a general JSON tool: [json-workbench](https://github.com/0xelitesystem/json-workbench) already covers formatting, tree browsing, querying, diffing and everyday tolerant parsing, while this repo is specifically about LLM output failure modes and the prompt-level fix for each one.
+Not a general JSON tool: [json-query-diff-convert](https://github.com/0xelitesystem/json-query-diff-convert) already covers formatting, tree browsing, querying, diffing and everyday tolerant parsing, while this repo is specifically about LLM output failure modes and the prompt-level fix for each one.
 
 ## Use
 
